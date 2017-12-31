@@ -5,7 +5,8 @@ import java.util.List;
 
 public class Basket {
 	private List<Apple> list = new ArrayList<>();
-
+                   
+	
 	public void put(Apple apple) {
 		while (list.size() == 10) {
 			try {
